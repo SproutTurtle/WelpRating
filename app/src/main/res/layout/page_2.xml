@@ -2,15 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:gravity="center"
     android:background="@android:color/holo_blue_dark"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="32sp"
+        android:gravity="top"
+        android:text="Some Shitty TA"
         android:textColor="@android:color/white"
-        android:text="Page 2" />
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/avgDG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="2.5"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/rcDG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text='"READ THE FKIN MP"'
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/rbDG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="jumptopage2"
+        android:text="Rate!" />
+
 </LinearLayout>

@@ -15,7 +15,7 @@
         android:textSize="32sp" />
 
     <TextView
-        android:id="@+id/avgDG3"
+        android:id="@+id/avg3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
@@ -24,7 +24,7 @@
         android:textSize="32sp" />
 
     <TextView
-        android:id="@+id/rcDG3"
+        android:id="@+id/recentCommen3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
@@ -33,7 +33,7 @@
         android:textSize="32sp" />
 
     <Button
-        android:id="@+id/rbDG3"
+        android:id="@+id/rateButton3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="jumptopage3"

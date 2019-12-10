@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        FirebaseDatabaseHelper helper = new FirebaseDatabaseHelper();
+        helper.addNewTA("boi");
+        helper.addNewTA("Daniel");
+
+
         drawerLayout = findViewById(R.id.drawer_layout);
         drawerView = findViewById(R.id.drawer);
 

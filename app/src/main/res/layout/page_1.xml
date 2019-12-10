@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
-        android:text='Daniel "The God" Gleason'
+        android:text="Daniel"
         android:textColor="@android:color/white"
         android:textSize="32sp" />
 
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
-        android:text="&quot;He's a fuckin god&quot;"
+        android:text='"Very Helpful"'
         android:textColor="@android:color/white"
         android:textSize="32sp" />
 
@@ -38,6 +38,12 @@
         android:layout_height="wrap_content"
         android:onClick="jumptopage"
         android:text="Rate!" />
+
+    <Button
+        android:id="@+id/updateButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
 
 
 </LinearLayout>

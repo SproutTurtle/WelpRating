@@ -1,4 +1,5 @@
 package com.example.welprating;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.PagerAdapter;
@@ -9,6 +10,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,11 +21,12 @@ public class RateActivity extends AppCompatActivity {
 
     private ViewPager pager;
     private PagerAdapter pagerAdapter;
+    List<Fragment> list;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rate);
-        List<Fragment> list = new ArrayList<>();
+        list = new ArrayList<>();
         list.add(new PageFragment1());
         list.add(new PageFragment2());
         list.add(new PageFragment3());
@@ -32,7 +38,7 @@ public class RateActivity extends AppCompatActivity {
 
     public void jumptopage(View view) {
         Intent intent = new Intent(RateActivity.this, FeedbackActivity.class);
-        intent.putExtra("name", "daniel gleason");
+        intent.putExtra("name", "Daniel");
         startActivity(intent);
     }
 

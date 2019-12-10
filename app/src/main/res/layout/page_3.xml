@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@android:color/holo_red_light"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="361dp"
+        app:srcCompat="@drawable/nikhil"/>
+
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
-        android:text='Ben "Why You Do This" Nordick'
+        android:text="Nikhil Garg"
         android:textColor="@android:color/white"
         android:textSize="32sp" />
 
@@ -18,17 +25,16 @@
         android:id="@+id/avg3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="top"
-        android:text="6.9"
+        android:text="4.8"
         android:textColor="@android:color/white"
         android:textSize="32sp" />
 
     <TextView
-        android:id="@+id/recentCommen3"
+        android:id="@+id/recentComment3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
-        android:text='"nice"'
+        android:text="&quot;Here to save the day&quot;"
         android:textColor="@android:color/white"
         android:textSize="32sp" />
 
@@ -38,5 +44,12 @@
         android:layout_height="wrap_content"
         android:onClick="jumptopage3"
         android:text="Rate!" />
+
+    <Button
+        android:id="@+id/updateButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
 
 </LinearLayout>

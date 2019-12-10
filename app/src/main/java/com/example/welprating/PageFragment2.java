@@ -10,11 +10,9 @@ import androidx.fragment.app.Fragment;
 
 public class PageFragment2 extends Fragment  {
 
-
     public View onCreateView(@NonNull LayoutInflater inflater, @NonNull ViewGroup container,
                              @NonNull Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.page_2, container, false);
         return rootView;
-
     }
 }

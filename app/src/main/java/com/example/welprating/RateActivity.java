@@ -8,12 +8,6 @@ import androidx.viewpager.widget.ViewPager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.ValueEventListener;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,13 +38,13 @@ public class RateActivity extends AppCompatActivity {
 
     public void jumptopage2(View view) {
         Intent intent = new Intent(RateActivity.this, FeedbackActivity.class);
-        intent.putExtra("name", "some shtty ta");
+        intent.putExtra("name", "Ajay");
         startActivity(intent);
     }
 
     public void jumptopage3(View view) {
         Intent intent = new Intent(RateActivity.this, FeedbackActivity.class);
-        intent.putExtra("name", "ben n");
+        intent.putExtra("name", "Nikhil");
         startActivity(intent);
     }
 }
